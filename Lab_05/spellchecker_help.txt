@@ -1,0 +1,44 @@
+bolita verde = metodo publico
+
+bolita con "S" = metodo estatico
+
+cuadradito rojo = PRIVADO (¿atributo?)
+
+bolita con "A" = clase abstracta (clase que no se puede instanciar)
+
+bolita con "C" = constructor
+
+object
+------
+hashcode --> IMPLEMENTAR
+equals --> IMPLEMENTAR
+
+flecha continua hacia abajo : tiene un atributo algo de la clase COSA (#set)
+
+flecha hacia arriba (punta vacia) : relacion de herencia
+
++ : publico
+- : privado
+# : protegido
+
+
+
+comentarios para documentar: /**  COMENATARIOS */
+
+example:
+        /**
+            Suma dos enteros
+            @param a -> Tipo a.
+            @param b -> Tipo b.
+            @return -> Tipo y explicacion.
+        */
+        int sumar(int a, int b)
+        {
+            return a+b;
+        }
+
+
+
+
+mark() = marca donde tiene
+reset() 0 

@@ -1,0 +1,19 @@
+Ejecutando tests sobre carpeta: ../test-evaluator/data/test1
+-----------------------------------
+*ve:False - vo:error: ../test-evaluator/data/test1/and-03-False.asg - lexer error - at line 1:  - formula:and-03.frm  - asg:and-03-False.asg
+*ve:True - vo:error: ../test-evaluator/data/test1/and-03-True.asg - lexer error - at line 1:  - formula:and-03.frm  - asg:and-03-True.asg
+*ve:True - vo:error: ../test-evaluator/data/test1/and-02-True.asg - lexer error - at line 1:  - formula:and-02.frm  - asg:and-02-True.asg
+*ve:False - vo:error: ../test-evaluator/data/test1/and-02-False.asg - lexer error - at line 1:  - formula:and-02.frm  - asg:and-02-False.asg
+ve:True - vo:True  - formula:and-or-03.frm  - asg:and-or-03-True.asg
+*ve:False - vo:True  - formula:and-or-03.frm  - asg:and-or-03-False.asg
+*ve:False - vo:True  - formula:and-01.frm  - asg:and-01-False.asg
+ve:True - vo:True  - formula:and-01.frm  - asg:and-01-True.asg
+ve:False - vo:False  - formula:and-or-01.frm  - asg:and-or-01-False.asg
+ve:True - vo:True  - formula:and-or-01.frm  - asg:and-or-01-True.asg
+ve:False - vo:False  - formula:and-04.frm  - asg:and-04-False.asg
+*ve:True - vo:False  - formula:and-04.frm  - asg:and-04-True.asg
+ve:True - vo:True  - formula:prec-01.frm  - asg:prec-01-True.asg
+*ve:False - vo:True  - formula:and-or-02.frm  - asg:and-or-02-False.asg
+ve:True - vo:True  - formula:and-or-02.frm  - asg:and-or-02-True.asg
+-----------------------------------
+OK: 7  - ERROR: 8

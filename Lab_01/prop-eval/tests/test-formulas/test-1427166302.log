@@ -1,0 +1,67 @@
+Ejecutando tests sobre carpeta: data/test2
+Extension de las Formulas: *.frm
+-----------------------------------
+ve:1 - vo:1 - output: error: data/test2/and-13-1.frm - parser error - syntax error
+ve:0 - vo:0 - output: ok: data/test2/prop-04-0.frm
+ve:0 - vo:0 - output: ok: data/test2/and-or-05-0.frm
+ve:0 - vo:0 - output: ok: data/test2/cnf-06-0.frm
+ve:1 - vo:1 - output: error: data/test2/and-12-1.frm - parser error - syntax error
+ve:0 - vo:0 - output: ok: data/test2/imp-02-0.frm
+ve:0 - vo:0 - output: ok: data/test2/and-or-03-0.frm
+ve:1 - vo:1 - output: error: data/test2/imp-04-1.frm - parser error - syntax error
+ve:0 - vo:0 - output: ok: data/test2/prop-03-0.frm
+ve:0 - vo:0 - output: ok: data/test2/or-06-0.frm
+ve:0 - vo:0 - output: ok: data/test2/and-02-0.frm
+ve:0 - vo:0 - output: ok: data/test2/iff-05-0.frm
+ve:0 - vo:0 - output: ok: data/test2/or-01-0.frm
+ve:0 - vo:0 - output: ok: data/test2/not-01-0.frm
+ve:0 - vo:0 - output: ok: data/test2/or-07-0.frm
+ve:0 - vo:0 - output: ok: data/test2/cnf-01-0.frm
+ve:0 - vo:0 - output: ok: data/test2/and-06-0.frm
+ve:0 - vo:0 - output: ok: data/test2/and-05-0.frm
+ve:1 - vo:1 - output: error: data/test2/prop-02-1.frm - lexer error - at line 2: A
+ve:0 - vo:0 - output: ok: data/test2/and-or-02-0.frm
+ve:0 - vo:0 - output: ok: data/test2/cnf-08-0.frm
+ve:1 - vo:1 - output: error: data/test2/or-08-1.frm - parser error - syntax error
+ve:0 - vo:0 - output: ok: data/test2/imp-06-0.frm
+ve:0 - vo:0 - output: ok: data/test2/and-01-0.frm
+ve:1 - vo:1 - output: error: data/test2/and-11-1.frm - parser error - syntax error
+ve:0 - vo:0 - output: ok: data/test2/cnf-09-0.frm
+ve:0 - vo:0 - output: ok: data/test2/cnf-03-0.frm
+ve:0 - vo:0 - output: ok: data/test2/or-03-0.frm
+ve:0 - vo:0 - output: ok: data/test2/not-03-0.frm
+ve:0 - vo:0 - output: ok: data/test2/and-14-0.frm
+ve:0 - vo:0 - output: ok: data/test2/and-09-0.frm
+ve:0 - vo:0 - output: ok: data/test2/iff-04-0.frm
+ve:0 - vo:0 - output: ok: data/test2/and-08-0.frm
+ve:0 - vo:0 - output: ok: data/test2/cnf-04-0.frm
+ve:0 - vo:0 - output: ok: data/test2/cnf-05-0.frm
+ve:0 - vo:0 - output: ok: data/test2/and-or-01-0.frm
+ve:1 - vo:1 - output: error: data/test2/and-04-1.frm - parser error - syntax error
+ve:0 - vo:0 - output: ok: data/test2/iff-03-0.frm
+ve:1 - vo:1 - output: error: data/test2/imp-03-1.frm - parser error - syntax error
+ve:0 - vo:0 - output: ok: data/test2/cnf-02-0.frm
+ve:0 - vo:0 - output: ok: data/test2/and-10-0.frm
+ve:0 - vo:0 - output: ok: data/test2/or-09-0.frm
+ve:0 - vo:0 - output: ok: data/test2/or-05-0.frm
+ve:1 - vo:1 - output: error: data/test2/or-04-1.frm - parser error - syntax error
+ve:1 - vo:1 - output: error: data/test2/or-10-1.frm - parser error - syntax error
+ve:0 - vo:0 - output: ok: data/test2/not-02-0.frm
+ve:0 - vo:0 - output: ok: data/test2/iff-01-0.frm
+ve:0 - vo:0 - output: ok: data/test2/imp-01-0.frm
+ve:0 - vo:0 - output: ok: data/test2/iif-06-0.frm
+ve:1 - vo:1 - output: error: data/test2/imp-05-1.frm - parser error - syntax error
+ve:1 - vo:1 - output: error: data/test2/iff-02-1.frm - parser error - syntax error
+ve:0 - vo:0 - output: ok: data/test2/imp-05-0.frm
+ve:1 - vo:1 - output: error: data/test2/imp-07-1.frm - parser error - syntax error
+ve:1 - vo:1 - output: error: data/test2/prop-05-1.frm - lexer error - at line 2: P
+ve:0 - vo:0 - output: ok: data/test2/and-03-0.frm
+ve:0 - vo:0 - output: ok: data/test2/cnf-07-0.frm
+ve:0 - vo:0 - output: ok: data/test2/prop-01-0.frm
+ve:0 - vo:0 - output: ok: data/test2/or-02-0.frm
+ve:1 - vo:1 - output: error: data/test2/imp-08-1.frm - parser error - syntax error
+ve:0 - vo:0 - output: ok: data/test2/cnf-10-0.frm
+ve:0 - vo:0 - output: ok: data/test2/and-07-0.frm
+ve:0 - vo:0 - output: ok: data/test2/and-or-04-0.frm
+-----------------------------------
+OK: 62  - ERROR: 0

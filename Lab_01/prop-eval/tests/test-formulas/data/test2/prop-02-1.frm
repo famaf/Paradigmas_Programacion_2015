@@ -1,0 +1,3 @@
+BEGIN
+A1
+END

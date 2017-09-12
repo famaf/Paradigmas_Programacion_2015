@@ -1,0 +1,3 @@
+BEGIN
+~P1
+END

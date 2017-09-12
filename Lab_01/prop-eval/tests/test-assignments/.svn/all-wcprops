@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/people/ezequiel/svn/!svn/ver/1376/teaching/paradigmas/labs/2015/lab-1/prop-eval/tests/test-assignments
+END
+run-test.sh
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/people/ezequiel/svn/!svn/ver/1356/teaching/paradigmas/labs/2015/lab-1/prop-eval/tests/test-assignments/run-test.sh
+END
+test-aparser.c
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/people/ezequiel/svn/!svn/ver/1347/teaching/paradigmas/labs/2015/lab-1/prop-eval/tests/test-assignments/test-aparser.c
+END
+makefile
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/people/ezequiel/svn/!svn/ver/1376/teaching/paradigmas/labs/2015/lab-1/prop-eval/tests/test-assignments/makefile
+END

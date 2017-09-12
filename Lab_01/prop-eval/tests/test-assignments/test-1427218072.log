@@ -1,0 +1,20 @@
+Ejecutando tests sobre carpeta: data/test1
+Extension de las asignaciones: *.asg
+-----------------------------------
+ve:1 - vo:1 - output: error: data/test1/as-11-1.asg - lexer error - at line 1: ;
+ve:1 - vo:1 - output: error: data/test1/as-15-1.asg - parser error - syntax error
+ve:1 - vo:1 - output: error: data/test1/as-12-1.asg - parser error - syntax error
+ve:1 - vo:1 - output: error: data/test1/as-05-1.asg - lexer error - at line 1: -
+ve:0 - vo:0 - output: ok: data/test1/as-07-0.asg
+ve:0 - vo:0 - output: ok: data/test1/as-01-0.asg
+ve:0 - vo:0 - output: ok: data/test1/as-03-0.asg
+ve:0 - vo:0 - output: ok: data/test1/as-08-0.asg
+ve:1 - vo:1 - output: error: data/test1/as-13-1.asg - lexer error - at line 1: A
+ve:0 - vo:0 - output: ok: data/test1/as-02-0.asg
+ve:0 - vo:0 - output: ok: data/test1/as-09-0.asg
+ve:0 - vo:0 - output: ok: data/test1/as-04-0.asg
+ve:0 - vo:0 - output: ok: data/test1/as-14-0.asg
+ve:1 - vo:1 - output: error: data/test1/as-06-1.asg - lexer error - at line 1: P
+ve:0 - vo:0 - output: ok: data/test1/as-10-0.asg
+-----------------------------------
+OK: 15  - ERROR: 0

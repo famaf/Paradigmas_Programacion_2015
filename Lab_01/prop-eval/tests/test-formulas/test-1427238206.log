@@ -1,0 +1,21 @@
+Ejecutando tests sobre carpeta: data/test1
+Extension de las Formulas: *.frm
+-----------------------------------
+ve:0 - vo:0 - output: ok: data/test1/prop-04-0.frm
+*ve:0 - vo:1 - output: error: data/test1/and-or-03-0.frm - lexer error - at line 2:
+ve:0 - vo:0 - output: ok: data/test1/prop-03-0.frm
+*ve:0 - vo:1 - output: error: data/test1/and-02-0.frm - lexer error - at line 2:
+*ve:0 - vo:1 - output: error: data/test1/or-01-0.frm - lexer error - at line 2:
+ve:1 - vo:1 - output: error: data/test1/prop-02-1.frm - lexer error - at line 2: A
+*ve:0 - vo:1 - output: error: data/test1/and-or-02-0.frm - lexer error - at line 2:
+*ve:0 - vo:1 - output: error: data/test1/and-01-0.frm - lexer error - at line 2:
+*ve:0 - vo:1 - output: error: data/test1/or-03-0.frm - lexer error - at line 2:
+*ve:0 - vo:1 - output: error: data/test1/and-or-01-0.frm - lexer error - at line 2:
+ve:1 - vo:1 - output: error: data/test1/and-04-1.frm - lexer error - at line 2:
+ve:1 - vo:1 - output: error: data/test1/or-04-1.frm - lexer error - at line 2:
+ve:1 - vo:1 - output: error: data/test1/prop-05-1.frm - lexer error - at line 2: P
+*ve:0 - vo:1 - output: error: data/test1/and-03-0.frm - lexer error - at line 2:
+ve:0 - vo:0 - output: ok: data/test1/prop-01-0.frm
+*ve:0 - vo:1 - output: error: data/test1/or-02-0.frm - lexer error - at line 2:
+-----------------------------------
+OK: 7  - ERROR: 9

@@ -1,0 +1,31 @@
+/* Archivo:: asignacion.l 
+ * Descripcion:: Archivo de especificacion utilizado por lex. A partir de este
+ * archivo lex genera el analizador lexico para parsear las asignaciones.
+ */
+
+%option  noyywrap case-insensitive yylineno
+%option prefix="a_"
+
+%{
+#include "misc.h"
+#include "aparser.tab.h"
+#include <stdio.h>
+
+extern char* aname;
+%}
+
+NUMBER [1-9][0-9]*
+
+%%
+p{NUMBER}                     {a_lval.v = get_prop_var(a_text); return TK_PROP ;} ////////
+":"                           {return TK_SEPARADOR;}
+"true"                        {a_lval.v = 1; return TK_BOOL;}   //////////
+"false"                       {a_lval.v = 0; return TK_BOOL;}   ////////
+"1"                           {a_lval.v = 1; return TK_BOOL;}      ////////
+"0"                           {a_lval.v = 0; return TK_BOOL;}      ////////
+[\n]                          {return TK_SEPARADOR;}
+","                           {return TK_SEPARADOR;}
+[ \t]                         {;}
+.                             { log_error(" %s - lexer error - at line %d: %s\n",aname,a_lineno,a_text); }
+
+%%
